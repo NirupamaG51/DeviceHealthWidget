@@ -1,0 +1,30 @@
+<div class="device-issues-container">
+    <div class="header">
+      <h3>Device Issues by Highest Frequency</h3>
+      <a href="#">View Details</a>
+    </div>
+    <small>Live data</small>
+    <table>
+      <thead>
+        <tr>
+          <th>Issues</th>
+          <th>Devices</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr *ngFor="let issue of deviceIssues" [ngClass]="getIssueClass(issue.issue)">
+          <td>{{ issue.issue }}</td>
+          <td>{{ issue.devices }}</td>
+        </tr> -->
+        <tr *ngFor="let issue of deviceIssues">
+          <td>
+            <span [class]="getIssueClass(issue.issue)"></span>
+            {{ issue.issue }}
+          </td>
+          <td>{{ issue.devices }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+

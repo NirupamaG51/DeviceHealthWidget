@@ -1,0 +1,9 @@
+[
+    { "issue": "Overdue for Check-In", "devices": 14 },
+    { "issue": "Camera Issue", "devices": 8 },
+    { "issue": "No Vehicle", "devices": 5 },
+    { "issue": "Wrong Status", "devices": 5 },
+    { "issue": "Power Issue", "devices": 2 },
+    { "issue": "SD Card Issue", "devices": 1 }
+  ]
+  
